@@ -131,9 +131,11 @@ export default {
 
       .title {
         position: absolute;
-        left: 42%;
+        left: 0;
         top: 10px;
         text-transform: uppercase;
+        text-align: center;
+        width: 100%;
       }
 
       img {
