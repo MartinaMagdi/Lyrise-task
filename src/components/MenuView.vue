@@ -22,8 +22,12 @@
           SUNGLASSES
           <v-icon icon="mdi-chevron-right" />
         </li>
-        <li class="menu-item" @mouseover="subMenu = false">HOME TRY ON</li>
-        <li class="menu-item" @mouseover="subMenu = false">PAIR FOR PAIR</li>
+        <li class="menu-item" @mouseover="subMenu = false" @click="closeMenu()">
+          HOME TRY ON
+        </li>
+        <li class="menu-item" @mouseover="subMenu = false" @click="closeMenu()">
+          PAIR FOR PAIR
+        </li>
       </ul>
     </v-navigation-drawer>
 
